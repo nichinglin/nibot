@@ -1,0 +1,8 @@
+prefix=/home/nini/nibot/02_software/catkin_ws/install
+
+Name: nibot
+Description: Description of nibot
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nini/nibot/02_software/catkin_ws/install/lib 
+Requires: 

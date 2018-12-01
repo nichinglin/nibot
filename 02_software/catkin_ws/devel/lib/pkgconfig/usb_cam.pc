@@ -1,0 +1,8 @@
+prefix=/home/nini/nibot/02_software/catkin_ws/devel
+
+Name: usb_cam
+Description: Description of usb_cam
+Version: 0.3.6
+Cflags: -I/home/nini/nibot/02_software/catkin_ws/src/sensor/usb_cam/include
+Libs: -L/home/nini/nibot/02_software/catkin_ws/devel/lib -lusb_cam
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/nini/nibot/02_software/catkin_ws/devel
+
+Name: nibot_msgs
+Description: Description of nibot_msgs
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nini/nibot/02_software/catkin_ws/devel/lib 
+Requires: 
