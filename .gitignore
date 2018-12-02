@@ -1,0 +1,12 @@
+virtualenv/
+02_software/catkin_ws/build
+02_software/catkin_ws/install
+02_software/catkin_ws/devel
+02_software/catkin_ws/.catkin_workspace
+*~
+*.bag
+*.pcd
+*.png
+*.pyc
+*.swp
+*.swo
