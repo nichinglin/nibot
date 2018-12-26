@@ -1,0 +1,26 @@
+<launch>
+    <arg name="veh" default="nibot" doc="Name of vehicle. ex:nibot"/>
+    <arg name="local" default="false" doc="true: running on laptop. false: running on vehicle."/>
+    <arg name="config" default="baseline" doc="Specify a config."/>
+    <arg name="param_file_name" default="default" doc="Specify a param file. ex:megaman." />
+
+    <arg name="gazebo" default="false"/>
+
+    <!-- fsm -->
+    <arg name="camera_node" default="false"/>
+
+
+    <!-- START LAUNCHING ROSNODE -->
+	<group ns="$(arg veh)">
+    	<!-- USB_CAM -->
+		<include file="$(find usb_cam)/launch/webcam.launch">
+			<arg name="image_width" value="640"/>        
+			<arg name="image_height" value="480"/>        
+			<arg name="video_device" value="/dev/video0"/>
+            <!--<arg name="camera_name" value="head_camera"/>
+			<arg name="camera_frame_id" value="head_camera"/>-->        
+		</include>
+	</group>
+
+
+</launch>
